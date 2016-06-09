@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var redslider: UISlider!
     @IBOutlet weak var greenslider: UISlider!
     @IBOutlet weak var blueslider: UISlider!
+    @IBOutlet weak var alphaslider: UISlider!
     @IBOutlet weak var colourView: UIView!
     
     override func viewDidLoad() {
@@ -32,8 +33,8 @@ class ViewController: UIViewController {
         let red: CGFloat = CGFloat(redslider.value)
         let green: CGFloat = CGFloat(greenslider.value)
         let blue: CGFloat = CGFloat(blueslider.value)
-        
-        colourView.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha:1)
+        let alpha: CGFloat = CGFloat(alphaslider.value)
+        colourView.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha:alpha)
     }
 
 }

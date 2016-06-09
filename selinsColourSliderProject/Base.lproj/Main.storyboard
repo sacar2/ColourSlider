@@ -19,22 +19,134 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oOV-8C-Izy">
-                                <rect key="frame" x="20" y="20" width="560" height="580"/>
+                                <rect key="frame" x="20" y="20" width="560" height="565"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="247" text="Selin's Colour Slider Project" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZkK-XV-y9y">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="247" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZkK-XV-y9y">
                                         <rect key="frame" x="0.0" y="0.0" width="560" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="f4z-27-6xP"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Se">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="lin">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="'s">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Co">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.71982935855263153" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="lo">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="ur">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="1" blue="0.65457956414473684" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Sl">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.5107421875" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="id">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="er">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.44228001644736842" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Pr">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.67228618421052633" green="0.5" blue="0.71211965460526316" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="oj">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.43567537006578949" green="0.39943976151315752" blue="0.41190378289473684" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="ec">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.16670949835526316" green="0.17030736019736842" blue="0.16958778782894737" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="t">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="36" name="HelveticaNeue-UltraLight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <color key="highlightedColor" red="1" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AOF-3P-sN0">
-                                        <rect key="frame" x="0.0" y="100" width="560" height="100"/>
+                                        <rect key="frame" x="0.0" y="100" width="560" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3S-a1-aVg">
-                                                <rect key="frame" x="0.0" y="0.0" width="60" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="60" id="kPU-No-tr1"/>
                                                 </constraints>
@@ -43,7 +155,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pUg-KC-b9t">
-                                                <rect key="frame" x="58" y="0.0" width="504" height="101"/>
+                                                <rect key="frame" x="58" y="0.0" width="504" height="61"/>
                                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <action selector="changeColourOutcome:" destination="BYZ-38-t0r" eventType="valueChanged" id="oWT-vc-0om"/>
@@ -51,14 +163,14 @@
                                             </slider>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="dIc-X1-63z"/>
+                                            <constraint firstAttribute="height" constant="60" id="dIc-X1-63z"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IHG-HS-fWs">
-                                        <rect key="frame" x="0.0" y="200" width="560" height="100"/>
+                                        <rect key="frame" x="0.0" y="160" width="560" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GREEN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWV-Md-kVc">
-                                                <rect key="frame" x="0.0" y="0.0" width="60" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="60" id="i3t-1t-a6r"/>
                                                 </constraints>
@@ -67,7 +179,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rGV-Ac-VY5">
-                                                <rect key="frame" x="58" y="0.0" width="504" height="101"/>
+                                                <rect key="frame" x="58" y="0.0" width="504" height="61"/>
                                                 <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <action selector="changeColourOutcome:" destination="BYZ-38-t0r" eventType="valueChanged" id="Sp2-XC-7aP"/>
@@ -75,14 +187,14 @@
                                             </slider>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="To1-cd-5XW"/>
+                                            <constraint firstAttribute="height" constant="60" id="To1-cd-5XW"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="blU-bh-5CS">
-                                        <rect key="frame" x="0.0" y="300" width="560" height="100"/>
+                                        <rect key="frame" x="0.0" y="220" width="560" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLUE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aM-Md-GzD">
-                                                <rect key="frame" x="0.0" y="0.0" width="60" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="60" id="N32-eI-bRO"/>
                                                 </constraints>
@@ -91,7 +203,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rJS-n3-T3z">
-                                                <rect key="frame" x="58" y="0.0" width="504" height="101"/>
+                                                <rect key="frame" x="58" y="0.0" width="504" height="61"/>
                                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <action selector="changeColourOutcome:" destination="BYZ-38-t0r" eventType="valueChanged" id="oYb-1t-qHt"/>
@@ -99,14 +211,38 @@
                                             </slider>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="qHi-cs-uue"/>
+                                            <constraint firstAttribute="height" constant="60" id="qHi-cs-uue"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GwL-rw-oGH">
+                                        <rect key="frame" x="0.0" y="280" width="560" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALPHA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6A-Sl-6q6">
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="NgP-XC-eQ5"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BqY-fX-hde">
+                                                <rect key="frame" x="58" y="0.0" width="504" height="61"/>
+                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="changeColourOutcome:" destination="BYZ-38-t0r" eventType="valueChanged" id="fuv-nZ-rIN"/>
+                                                </connections>
+                                            </slider>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Swy-3P-Fo2"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kod-Op-now">
-                                        <rect key="frame" x="0.0" y="400" width="560" height="180"/>
+                                        <rect key="frame" x="0.0" y="340" width="560" height="225"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fht-Ip-rUv">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="180"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="225"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
                                         </subviews>
@@ -114,16 +250,17 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90980392160000001" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.98431372549019602" green="0.96470588235294119" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oOV-8C-Izy" secondAttribute="bottom" id="UPx-pX-gVT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oOV-8C-Izy" secondAttribute="bottom" constant="15" id="UPx-pX-gVT"/>
                             <constraint firstItem="oOV-8C-Izy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="arD-Q5-ODX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oOV-8C-Izy" secondAttribute="trailing" id="boC-iy-TsM"/>
                             <constraint firstItem="oOV-8C-Izy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kbZ-oz-EDw"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="alphaslider" destination="BqY-fX-hde" id="54C-MC-4WM"/>
                         <outlet property="blueslider" destination="rJS-n3-T3z" id="gco-dY-T8n"/>
                         <outlet property="colourView" destination="fht-Ip-rUv" id="sJC-4P-h16"/>
                         <outlet property="greenslider" destination="rGV-Ac-VY5" id="38y-iZ-f5e"/>
